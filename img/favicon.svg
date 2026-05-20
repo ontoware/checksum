@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="favicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="2.34" y1="29.66" x2="29.66" y2="2.34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a90e2"/>
+      <stop offset="1" stop-color="#6aa9ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" ry="8" style="fill: url(#linear-gradient);"/>
+  <path d="M8,20.05v-1.9h15.04v1.9h-15.04ZM8.99,13.65v-1.9h15.01v1.9h-15.01ZM9.82,24l3.12-16h2.34l-3.12,16h-2.34ZM16.73,24l3.12-16h2.34l-3.12,16h-2.34Z" style="fill: #fff;"/>
+</svg>
