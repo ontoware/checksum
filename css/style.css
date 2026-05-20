@@ -169,3 +169,18 @@ pre {
     border-color: #ff5252 !important;
     box-shadow: 0 0 6px rgba(255, 82, 82, 0.4);
 }
+
+footer{
+    text-align: center;
+}
+
+footer>p{
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+footer>ul{
+    list-style: none;
+    list-style-position: inside;
+    text-align: justify;
+}

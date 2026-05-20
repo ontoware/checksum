@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checksum checker</title>
-    <link rel="stylesheet" href="https://ontoware.github.io/checksum/css/style.css">
-    <link rel="manifest" href="https://ontoware.github.io/checksum/manifest.json">
-    <link rel="icon" type="image/svg+xml" href="https://ontoware.github.io/checksum/img/favicon.svg">
-    <link rel="apple-touch-icon" href="https://ontoware.github.io/checksum/img/apple-touch-icon.png"> <!--180-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png"> <!--180-->
     <meta name="description" content="Công cụ hỗ trợ kiểm tra tính toàn vẹn của file dựa trên thuật toán SHA-256.">
     <!--facebook-->
     <meta property="og:title" content="Checksum checker">
@@ -45,16 +45,28 @@
     </div>
 </div>
 
-<footer>Powered by Nguyenhx &copy; 2026<span id="year"></span></footer>
+<div>
+    
+</div>
 
-<script src="https://ontoware.github.io/checksum/js/script.js"></script>
+<footer>
+    <ul>
+        <li>💻 Chúng tôi xử lý file tại thiết bị của bạn, không truyền đi nơi khác.</li>
+        <li>🔎 Checksum gốc có thể tìm thấy tại trang web phát hành sản phẩm.</li>
+        <li>✒️ Mọi thay đổi trên file đều dẫn đến thay đổi checksum.</li>
+        <li>✔️ File chỉ nguyên vẹn khi checksum trùng với thông tin phát hành.</li>
+    </ul>
+    <p>Powered by Nguyenhx &copy; 2026<span id="year"></span></p>
+</footer>
+
+<script src="js/script.js"></script>
 <script>
     let curYear = new Date().getFullYear();
     if(curYear > 2026){
         document.getElementById("year").textContent = ` - ${curYear}`;
     }
     if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("https://ontoware.github.io/checksum/js/service-worker.js");
+        navigator.serviceWorker.register("js/service-worker.js");
     }
 </script>
 </body>
